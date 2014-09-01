@@ -1,0 +1,31 @@
+{
+  "name": "translator",
+  "version": "0.0.0",
+  "description": "counterpart inspired translation package",
+  "main": "index.js",
+  "scripts": {
+    "test": "vows"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thechriswalker/translator.git"
+  },
+  "keywords": [
+    "translate",
+    "i18n",
+    "counterpart"
+  ],
+  "author": "Chris Walker <chris@thechriswalker.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thechriswalker/translator/issues"
+  },
+  "homepage": "https://github.com/thechriswalker/translator",
+  "dependencies": {
+    "sprintf": "^0.1.4",
+    "date-names": "^0.1.2"
+  },
+  "devDependencies": {
+    "vows": "^0.7.0"
+  }
+}
